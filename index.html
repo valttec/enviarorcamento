@@ -136,9 +136,9 @@ function generateLink() {
   let laudo = document.getElementById('laudo').value;
   let solucao = document.getElementById('solucao').value;
   let orcamento = document.getElementById('orcamento').value;
-  let cabecalho = "Olá "+comp+" senhor(a) "+nomeCliente+", me chamo "+atendente+" e falo da *AstecByte assistência técnica*, passando para informar sobre sua Ordem de Serviço Nº: "+numerOS;
+  let cabecalho = "Olá "+comp+" senhor(a) "+nomeCliente+", me chamo "+atendente+" e falo da *AstecByte assistência técnica*, estou entrando em contato para informar o laudo e orçamento do técnico sobre seu equipamento, Ordem de Serviço Nº: "+numerOS;
   let rodape = "Garantia de serviços 30 dias. \n\n Garantia de peças 90 dias. \n\n Responda com *APROVADO* ou *REPROVADO* para prosseguirmos com sua ordem de serviço.";
-  let texto = cabecalho+"\n\n *Laudo:*\n"+laudo+"\n\n *Solução:*\n"+solucao+"\n\n *orçamento:*\n"+orcamento+"\n\n"+rodape;
+  let texto = cabecalho+"\n\n *Laudo:*\n"+laudo+"\n\n *Solução:*\n"+solucao+"\n\n *orçamento:*\n"+Orcamento+"\n\n"+rodape;
   
    texto = window.encodeURIComponent(texto);
    if(fone != "" && atendente != ""){
